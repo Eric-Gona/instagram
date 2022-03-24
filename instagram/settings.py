@@ -50,8 +50,8 @@ ALLOWED_HOSTS = config('ALLOWED_HOSTS', cast=Csv())
 
 cloudinary.config( 
   cloud_name = "gallery24", 
-  api_key = "522611263718419", 
-  api_secret = "CPt9_ceX6zTxZNEixNTAPBfBSU0" 
+  api_key = "AIzaSyDMi0EYRARQ1e6GL4rGampfFE68roI0FWs", 
+  api_secret = "AIzaSyDMi0EYRARQ1e6GL4rGampfFE68roI0FWs" 
 )
 
 DEFAULT_FILE_STORAGE = 'cloudinary_storage.storage.MediaCloudinaryStorage'
